@@ -25,21 +25,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <level3
+    <Button
         android:id="@+id/level3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="☆☆☆"
+        tools:layout_editor_absoluteY="376dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="368dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 
-    <level
-        android:id="@+id/level"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="難易度を選んでください"
-        android:textSize="28sp"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="46dp" />
+        android:layout_marginTop="49dp"
+        android:text="難易度を選んでね！"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
