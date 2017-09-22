@@ -29,9 +29,10 @@
         android:layout_width="253dp"
         android:layout_height="53dp"
         android:text="コースを選んでね！"
+        android:textAlignment="center"
         android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="47dp"
-        app:layout_constraintHorizontal_bias="0.503" />
+        tools:layout_editor_absoluteY="47dp" />
 </android.support.constraint.ConstraintLayout>
