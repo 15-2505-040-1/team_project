@@ -10,7 +10,20 @@
         android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="黒羊のジン"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="97dp" />
+        android:layout_marginBottom="299dp"
+        android:layout_marginTop="8dp"
+        android:text="黒羊"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スタート"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="299dp" />
 </android.support.constraint.ConstraintLayout>
