@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".courseSentaku" />
-        <activity android:name=".nanidoSentaku"></activity>
+        <activity android:name=".nanidoSentaku" />
+        <activity android:name=".ProbActivity"></activity>
     </application>
 
 </manifest>
