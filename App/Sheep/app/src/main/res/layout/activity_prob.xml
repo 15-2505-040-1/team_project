@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="44dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/select1"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:text="3"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="379dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/select2"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:text="4"
@@ -43,7 +43,7 @@
         tools:layout_editor_absoluteY="379dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/select3"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:text="5"
@@ -51,7 +51,7 @@
         tools:layout_editor_absoluteY="379dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/select4"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:text="6"
