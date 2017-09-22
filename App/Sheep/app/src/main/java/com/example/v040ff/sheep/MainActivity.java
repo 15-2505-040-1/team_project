@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void onStartButtonTapped(View view){
-        Intent intent=new Intent(this, courseSentaku.class);
+        Intent intent=new Intent(this, CourseActivity.class);
         startActivity(intent);
     }
 }
