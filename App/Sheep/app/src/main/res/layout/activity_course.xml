@@ -10,6 +10,7 @@
         android:id="@+id/jhcourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onStartButtonTapped"
         android:text="中学生"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
