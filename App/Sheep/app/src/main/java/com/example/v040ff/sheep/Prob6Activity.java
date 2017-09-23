@@ -5,15 +5,15 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class ProbActivity extends AppCompatActivity {
+public class Prob6Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_prob);
+        setContentView(R.layout.activity_prob6);
     }
     public void onAns1ButtonTapped(View view) {
-        Intent intent = new Intent(this, BatuActivity.class);
+        Intent intent = new Intent(this, seikai.class);
         startActivity(intent);
     }
     public void onAns2ButtonTapped(View view) {
@@ -21,7 +21,7 @@ public class ProbActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void onAns3ButtonTapped(View view) {
-        Intent intent = new Intent(this, seikai.class);
+        Intent intent = new Intent(this, BatuActivity.class);
         startActivity(intent);
     }
     public void onAns4ButtonTapped(View view) {

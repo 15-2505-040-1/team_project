@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class seikai extends AppCompatActivity {
+public class BatuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seikai);
+        setContentView(R.layout.activity_batu);
     }
-    public void onKaisetsuButtonTapped(View view) {
+    public void onKaisetuButtonTapped(View view) {
         Intent intent = new Intent(this, KaisetsuActivity.class);
         startActivity(intent);
     }

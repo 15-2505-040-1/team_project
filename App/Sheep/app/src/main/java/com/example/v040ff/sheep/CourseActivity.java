@@ -12,8 +12,12 @@ public class CourseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course);
     }
-    public void onStartButtonTapped(View view){
+    public void onJhButtonTapped(View view){
         Intent intent=new Intent(this, LevelActivity.class);
+        startActivity(intent);
+    }
+    public void onHsButtonTapped(View view){
+        Intent intent=new Intent(this, Level2Activity.class);
         startActivity(intent);
     }
 }

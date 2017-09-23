@@ -18,7 +18,16 @@
         </activity>
         <activity android:name=".seikai" />
         <activity android:name=".CourseActivity" />
-        <activity android:name=".LevelActivity"></activity>
+        <activity android:name=".LevelActivity" />
+        <activity android:name=".ProbActivity" />
+        <activity android:name=".BatuActivity" />
+        <activity android:name=".KaisetsuActivity" />
+        <activity android:name=".Level2Activity" />
+        <activity android:name=".Prob2Activity" />
+        <activity android:name=".Prob3Activity" />
+        <activity android:name=".Prob4Activity" />
+        <activity android:name=".Prob5Activity" />
+        <activity android:name=".Prob6Activity"></activity>
     </application>
 
 </manifest>
