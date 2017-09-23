@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.v040ff.sheep.ProbActivity">
+    tools:context="com.example.v040ff.sheep.Prob5Activity">
 
     <TextView
         android:id="@+id/probMain"
@@ -14,13 +14,13 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="11dp"
         android:lines="3"
-        android:text="コインを3回投げて表が2回以上出る場合の数を求めよ。 "
+        android:text="f'(a)=lim[{f(a+h)-□}/h][h→0]"
         android:textSize="20sp"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prob1"
-        tools:text="コインを3回投げて表が2回以上出る場合の数を求めよ。 " />
+        tools:text="f'(a)=lim[{f(a+h)-□}/h][h→0]" />
 
     <TextView
         android:id="@+id/prob1"
@@ -40,7 +40,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="206dp"
         android:onClick="onAns1ButtonTapped"
-        android:text="2"
+        android:text="f(a)"
         android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/probMain" />
@@ -52,7 +52,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="206dp"
         android:onClick="onAns2ButtonTapped"
-        android:text="3"
+        android:text="f(h)"
         android:textSize="20sp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/probMain" />
@@ -65,7 +65,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="13dp"
         android:onClick="onAns3ButtonTapped"
-        android:text="4"
+        android:text="f(a-h)"
         android:textSize="20sp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="@+id/select1"
@@ -79,8 +79,10 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="13dp"
         android:onClick="onAns4ButtonTapped"
-        android:text="5"
+        android:text="f(h-a)"
         android:textSize="20sp"
         app:layout_constraintRight_toRightOf="@+id/select2"
         app:layout_constraintTop_toBottomOf="@+id/select2" />
+
+
 </android.support.constraint.ConstraintLayout>
