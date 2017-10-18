@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sheep</string>
+    <string name="title_activity_mondai">問題一覧</string>
 </resources>

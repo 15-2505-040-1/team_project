@@ -11,9 +11,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
+
     public void onStartButtonTapped(View view){
         Intent intent=new Intent(this, CourseActivity.class);
         startActivity(intent);
     }
+    public void onMondaiButtonTapped(View view){
+        Intent intent=new Intent(this, MondaiActivity.class);
+        startActivity(intent);
+    }
+
 }
