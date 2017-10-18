@@ -7,30 +7,63 @@
     tools:context="com.example.v040ff.sheep.CourseActivity">
 
     <Button
-        android:id="@+id/jhcourse"
+        android:id="@+id/kagaku"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onJhButtonTapped"
-        android:text="中学生"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="onHsButtonTapped"
+        android:text="化学"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/eigo" />
 
     <Button
-        android:id="@+id/hscourse"
+        android:id="@+id/buturi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="80dp"
         android:onClick="onHsButtonTapped"
-        android:text="高校生"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="物理"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/suugaku"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/kokugo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onJhButtonTapped"
+        android:text="国語"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jhcourse"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/course" />
+
+    <Button
+        android:id="@+id/suugaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onHsButtonTapped"
+        android:text="数学"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/kokugo" />
+
+    <Button
+        android:id="@+id/eigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onHsButtonTapped"
+        android:text="英語"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/buturi"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/course"
@@ -38,10 +71,10 @@
         android:layout_height="wrap_content"
         android:text="コースを選んでね！"
         android:textSize="28sp"
+        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/jhcourse" />
+        android:layout_marginTop="40dp" />
 </android.support.constraint.ConstraintLayout>
